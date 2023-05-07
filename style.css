@@ -1,0 +1,127 @@
+#navbar {
+  color: aliceblue;
+}
+
+#yo {
+  border-top: 500px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  max-width: 350px;
+  max-height: 250px;
+  border: 12px solid #010033de; /* Cambia el color del borde a tu elección */
+  background-color: #030153de;
+  border-radius: 12px; /* Ajusta el valor según la curvatura deseada */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Añade una sombra suave */
+  transition: all 0.3s ease-in-out; /* Agrega una transición suave al pasar el cursor */
+}
+
+#yo:hover {
+  transform: scale(1.05); /* Escala ligeramente la imagen al pasar el cursor */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Aumenta la intensidad de la sombra al pasar el cursor */
+}
+
+h2 {
+  text-align: center;
+  color: aliceblue;
+  margin-top: 5px;
+  padding: 30px;
+  margin-left: 30%;
+  margin-right: 30%;
+  text-decoration: underline rgba(0, 0, 0, 0.356);
+  font-weight: bold;
+}
+
+.column {
+  background-color: rgb(253, 118, 55);
+}
+
+.separacion {
+  padding: 30px;
+}
+
+.container {
+  margin-top: 120px;
+}
+
+#project {
+  max-width: 350px;
+  max-height: 230px;
+}
+
+#ima {
+  display: block;
+  margin: 0 auto;
+}
+
+#sobre-mi {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  font-family: "Gill Sans";
+  font-size: x-large;
+  font-weight: bolder;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+#div-sobre-mi {
+  margin-top: 200px;
+  background-color: rgb(211, 89, 33);
+}
+
+.iconos {
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+}
+
+#contacto {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(201, 0, 0, 1) 50%,
+    rgba(3, 9, 144, 1) 100%
+  );
+  margin-top: -20px;
+  margin-bottom: 40px;
+}
+
+#boton {
+  margin-bottom: 30px;
+}
+
+#mail {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.container-2 {
+  background-color: rgba(241, 77, 167, 0.651);
+  margin-top: -40px;
+}
+
+#redes {
+  text-align: center;
+  padding: 5px;
+  color: rgb(255, 0, 0);
+  margin-right: 40%;
+  margin-left: 40%;
+  margin-top: 3%;
+  padding-bottom: 10%;
+}
+
+#redes-text {
+  font-family: "Courier New";
+  font-weight: bold;
+  font-size: xx-large;
+  text-align: center;
+  color: rgb(7, 7, 7);
+  margin-bottom: 10%;
+}
+
+#copyright {
+  background-color: blue;
+  text-align: center;
+  color: bisque;
+}
